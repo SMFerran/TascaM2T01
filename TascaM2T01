@@ -1,4 +1,4 @@
-# Ejercicio 1. 
+# EJERCICIO 1. 
 # Funcion que clasifique variable numerica en Suspès/Aprovat/Notable/Excel·lent.
 
 nota=8
@@ -14,7 +14,7 @@ elif nota >= 9:
 
 RDO: Notable
 
-#Ejercicio 2
+#EJERCICIO 2
 #función que pregunta dos numeros. mensaje que diga si el primer nº es mas grande, el segundo es mas grande o son iguales
 
 x= input ("entra un primer numero: " )
@@ -31,7 +31,7 @@ elif x==y:
 RDO: 3 3
 RDO: los numeros son iguales
 
-#Ejercicio 3
+#EJERCICIO 3
 # funcio pregunti el teu nom i et demani el numero. Si el nº es 0 debe dar error, si no debe repetir el nombre tantas veces como el numero
 
 x=input("Cual es tu nombre: ")
@@ -46,7 +46,7 @@ else:
 RDO: silvia 3
 RDO: silviasilviasilvia
 
-#Ejercicio 4
+#EJERCICIO 4
 # crear funcion que dada una lista cualquiera diga si es simetrica o no. 
 #Si no lo es que diga los elementos que tiene
 
@@ -62,7 +62,7 @@ lista_simetrica (lista)
 
 RDO: la lista no es simetrica, el numero de caracteres es: 5
 
-#Ejercicio 5
+#EJERCICIO 5
 # crear funcion que dada una lista, diga cuantos numeros coindiden con su posicion
 
 def numero_coincide (lista):
