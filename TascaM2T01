@@ -1,0 +1,77 @@
+# Ejercicio 1. 
+# Funcion que clasifique variable numerica en Suspès/Aprovat/Notable/Excel·lent.
+
+nota=8
+
+if nota < 5:
+    print ("Suspès") 
+elif nota >= 5 and nota <= 7:
+    print ("Aprovat")
+elif nota > 7 and nota < 9:
+    print ("Notable")
+elif nota >= 9:
+    print ("Excel.lent")
+
+Notable
+
+#Ejercicio 2
+#función que pregunta dos numeros. mensaje que diga si el primer nº es mas grande, el segundo es mas grande o son iguales
+
+x= input ("entra un primer numero: " )
+y= input ("entra un segundo numero: ")
+print(x, y)
+
+if x>y:
+    print("el primere numero es mas grande")
+elif x<y:
+    print("el segundo numero es mas grande")
+elif x==y:
+    print("los numeros son iguales")
+
+3 3
+los numeros son iguales
+
+#Ejercicio 3
+# funcio pregunti el teu nom i et demani el numero. Si el nº es 0 debe dar error, si no debe repetir el nombre tantas veces como el numero
+
+x=input("Cual es tu nombre: ")
+y=int(input("dime un numero: "))
+print(x,y)
+
+if y==0:
+    print("error")
+else:
+    print(x*y)
+
+silvia 3
+silviasilviasilvia
+
+#Ejercicio 4
+# crear funcion que dada una lista cualquiera diga si es simetrica o no. 
+#Si no lo es que diga los elementos que tiene
+
+def lista_simetrica (lista):
+    lista_revertida = lista [::-1]
+    if lista == lista_revertida:        
+        print("la lista es simetrica")
+    else:
+        print("la lista no es simetrica, el numero de caracteres es:" ,len(lista))
+
+lista= [3, 5, 6, 3, 5]
+lista_simetrica (lista)
+
+la lista no es simetrica, el numero de caracteres es: 5
+
+#Ejercicio 5
+# crear funcion que dada una lista, diga cuantos numeros coindiden con su posicion
+
+def numero_coincide (lista):
+    coincidencias = 0
+    for i in range(len(lista)):
+        if lista [i] == 1:
+            coincidencias += 1
+    return coincidencias
+lista = [3, 1, 6, 4, 3]
+numero_coincide (lista)
+
+1
