@@ -12,7 +12,7 @@ elif nota > 7 and nota < 9:
 elif nota >= 9:
     print ("Excel.lent")
 
-Notable
+RDO: Notable
 
 #Ejercicio 2
 #función que pregunta dos numeros. mensaje que diga si el primer nº es mas grande, el segundo es mas grande o son iguales
@@ -28,8 +28,8 @@ elif x<y:
 elif x==y:
     print("los numeros son iguales")
 
-3 3
-los numeros son iguales
+RDO: 3 3
+RDO: los numeros son iguales
 
 #Ejercicio 3
 # funcio pregunti el teu nom i et demani el numero. Si el nº es 0 debe dar error, si no debe repetir el nombre tantas veces como el numero
@@ -43,8 +43,8 @@ if y==0:
 else:
     print(x*y)
 
-silvia 3
-silviasilviasilvia
+RDO: silvia 3
+RDO: silviasilviasilvia
 
 #Ejercicio 4
 # crear funcion que dada una lista cualquiera diga si es simetrica o no. 
@@ -60,7 +60,7 @@ def lista_simetrica (lista):
 lista= [3, 5, 6, 3, 5]
 lista_simetrica (lista)
 
-la lista no es simetrica, el numero de caracteres es: 5
+RDO: la lista no es simetrica, el numero de caracteres es: 5
 
 #Ejercicio 5
 # crear funcion que dada una lista, diga cuantos numeros coindiden con su posicion
@@ -74,4 +74,4 @@ def numero_coincide (lista):
 lista = [3, 1, 6, 4, 3]
 numero_coincide (lista)
 
-1
+RDO: 1
